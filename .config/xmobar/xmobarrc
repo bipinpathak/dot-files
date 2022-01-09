@@ -24,7 +24,7 @@ Config { font = "xft:Iosevka Extended:pixelsize=12:antialias=true:hinting=true"
                                "--normal","green","--high","red"] 20
                     , Run Memory ["-t","Mem: <used>MB"] 20
                     , Run Date "%H:%M:%S %a %b %_d %Y  "  "date" 10
-		    , Run Battery        [ "--template" , "<leftbar> <timeleft>"
+		    , Run Battery        [ "--template" , "<leftbar>"
                              , "--Low"      , "20"        -- units: %
                              , "--High"     , "80"        -- units: %
                              , "--low"      , "darkred"
